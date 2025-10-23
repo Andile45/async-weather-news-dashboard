@@ -1,0 +1,17 @@
+{
+  "name": "async-weather-news-dashboard",
+  "version": "1.0.0",
+  "description": "Demo: callbacks, promises, async/await fetching weather and news",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "callback": "ts-node src/callbackVersion.ts",
+    "promise": "ts-node src/promiseVersion.ts",
+    "async": "ts-node src/asyncAwaitVersion.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.23",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
