@@ -1,13 +1,13 @@
 {
   "name": "async-weather-news-dashboard",
   "version": "1.0.0",
-  "description": "Demo: callbacks, promises, async/await fetching weather and news",
+  "description": "MVC Node.js app demonstrating callbacks, promises, and async/await with Weather and News APIs",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "callback": "ts-node src/callbackVersion.ts",
-    "promise": "ts-node src/promiseVersion.ts",
-    "async": "ts-node src/asyncAwaitVersion.ts"
+    "callback": "ts-node src/controllers/callbackController.ts",
+    "promise": "ts-node src/controllers/promiseController.ts",
+    "async": "ts-node src/controllers/asyncController.ts"
   },
   "devDependencies": {
     "@types/node": "^20.19.23",
